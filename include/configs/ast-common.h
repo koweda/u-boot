@@ -42,7 +42,7 @@
 
 #define CONFIG_SYS_TEXT_BASE		0x00000000
 
-#define CONFIG_SYS_MALLOC_LEN   	(0x1000 + 4*1024*1024) /* malloc() len */
+#define CONFIG_SYS_MALLOC_LEN   	(0x1000 + 6*1024*1024) /* malloc() len */
 
 #define CONFIG_ASPEED_TIMER_CLK		(1*1000*1000)	/* use external clk (1M) */
 
